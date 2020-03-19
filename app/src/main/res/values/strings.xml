@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">All work</string>
+    <string name="sine_up"><u>Sign up</u></string>
+    <string name="forgot_passwords"><u>Forgot Passwords</u></string>
+    <string name="sine_in"><u>Sign in</u></string>
+</resources>

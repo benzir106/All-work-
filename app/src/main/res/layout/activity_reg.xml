@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/weljpg"
+    tools:context=".Reg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_marginTop="50dp"
+            android:textSize="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Creat\nAccount"
+            android:textColor="@color/md_black_1000"/>
+
+        <EditText
+            android:id="@+id/nameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColorHint="@color/md_blue_grey_900"
+            android:inputType="text"
+            android:layout_marginTop="50dp"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/emailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/md_blue_grey_900"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="5dp"
+            />
+        <EditText
+            android:id="@+id/passId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@color/md_blue_grey_900"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="5dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:textSize="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/md_black_1000"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/btn"
+                android:layout_marginLeft="140dp"
+                app:srcCompat="@drawable/ic_arrow"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/sinId"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sine_in"
+                android:textColor="@color/md_black_1000"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
